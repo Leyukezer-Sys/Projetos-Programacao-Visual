@@ -39,11 +39,18 @@ namespace WindowsForms_Aula23022023
 
         private void btDividir_Click(object sender, EventArgs e)
         {
-            lbOperacao.Text = "/";
             valor1 = Convert.ToInt32(txtValor1.Text);
             valor2 = Convert.ToInt32(txtValor2.Text);
-
-            resultado = valor1 / valor2;
+            if (valor1 < valor2)
+            {
+                MessageBox.Show("Divisão Inválida\nValor 1 deve ser Maior que Valor 2", "Atenção",
+                MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+            else
+            {
+                lbOperacao.Text = "/";
+                resultado = valor1 / valor2;
+            }
         }
 
         private void btResultado_Click(object sender, EventArgs e)
