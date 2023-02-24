@@ -89,6 +89,7 @@
             this.txtValor3.Name = "txtValor3";
             this.txtValor3.Size = new System.Drawing.Size(99, 27);
             this.txtValor3.TabIndex = 16;
+            this.txtValor3.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // lbValor3
             // 
@@ -164,6 +165,7 @@
             this.txtResultado.Name = "txtResultado";
             this.txtResultado.Size = new System.Drawing.Size(99, 27);
             this.txtResultado.TabIndex = 6;
+            this.txtResultado.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // txtValor2
             // 
@@ -174,6 +176,7 @@
             this.txtValor2.Name = "txtValor2";
             this.txtValor2.Size = new System.Drawing.Size(99, 27);
             this.txtValor2.TabIndex = 5;
+            this.txtValor2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // txtValor1
             // 
@@ -184,6 +187,7 @@
             this.txtValor1.Name = "txtValor1";
             this.txtValor1.Size = new System.Drawing.Size(99, 27);
             this.txtValor1.TabIndex = 4;
+            this.txtValor1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // lbResultado
             // 
