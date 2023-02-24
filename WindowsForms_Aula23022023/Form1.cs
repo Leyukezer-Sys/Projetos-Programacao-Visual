@@ -19,11 +19,6 @@ namespace WindowsForms_Aula23022023
             InitializeComponent();
         }
 
-        private void Form1_Load(object sender, EventArgs e)
-        {
-
-        }
-
         private void btSubtrair_Click(object sender, EventArgs e)
         {
             lbOperacao.Text = "-";
@@ -60,16 +55,6 @@ namespace WindowsForms_Aula23022023
             }
             else
             txtResultado.Text = resultado.ToString();
-        }
-
-        private void panel1_Paint(object sender, PaintEventArgs e)
-        {
-
-        }
-
-        private void txtResultado_TextChanged(object sender, EventArgs e)
-        {
-
         }
 
         private void btNovo_Click(object sender, EventArgs e)
