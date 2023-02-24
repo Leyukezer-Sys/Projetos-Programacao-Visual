@@ -1,6 +1,6 @@
 ﻿namespace App_Multi3Valores
 {
-    partial class Form1
+    partial class Multiplicacao
     {
         /// <summary>
         /// Variável de designer necessária.
@@ -30,6 +30,9 @@
         {
             this.Titulo = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.txtValor3 = new System.Windows.Forms.TextBox();
+            this.lbValor3 = new System.Windows.Forms.Label();
+            this.lbOperacao1 = new System.Windows.Forms.Label();
             this.btNovo = new System.Windows.Forms.Button();
             this.btResultado = new System.Windows.Forms.Button();
             this.lbOperacao = new System.Windows.Forms.Label();
@@ -39,9 +42,6 @@
             this.lbResultado = new System.Windows.Forms.Label();
             this.lbValor2 = new System.Windows.Forms.Label();
             this.lbValor1 = new System.Windows.Forms.Label();
-            this.lbOperacao1 = new System.Windows.Forms.Label();
-            this.txtValor3 = new System.Windows.Forms.TextBox();
-            this.lbValor3 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -79,6 +79,37 @@
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(800, 450);
             this.panel1.TabIndex = 1;
+            // 
+            // txtValor3
+            // 
+            this.txtValor3.BackColor = System.Drawing.Color.LightGray;
+            this.txtValor3.Font = new System.Drawing.Font("Miriam Mono CLM", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(177)));
+            this.txtValor3.ForeColor = System.Drawing.Color.DarkGreen;
+            this.txtValor3.Location = new System.Drawing.Point(158, 344);
+            this.txtValor3.Name = "txtValor3";
+            this.txtValor3.Size = new System.Drawing.Size(99, 27);
+            this.txtValor3.TabIndex = 16;
+            // 
+            // lbValor3
+            // 
+            this.lbValor3.Font = new System.Drawing.Font("Miriam Mono CLM", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(177)));
+            this.lbValor3.ForeColor = System.Drawing.Color.White;
+            this.lbValor3.Location = new System.Drawing.Point(42, 344);
+            this.lbValor3.Name = "lbValor3";
+            this.lbValor3.Size = new System.Drawing.Size(100, 23);
+            this.lbValor3.TabIndex = 15;
+            this.lbValor3.Text = "Valor 3:";
+            // 
+            // lbOperacao1
+            // 
+            this.lbOperacao1.Font = new System.Drawing.Font("Miriam Mono CLM", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(177)));
+            this.lbOperacao1.ForeColor = System.Drawing.Color.White;
+            this.lbOperacao1.Location = new System.Drawing.Point(154, 275);
+            this.lbOperacao1.Name = "lbOperacao1";
+            this.lbOperacao1.Size = new System.Drawing.Size(100, 23);
+            this.lbOperacao1.TabIndex = 14;
+            this.lbOperacao1.Text = "X";
+            this.lbOperacao1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // btNovo
             // 
@@ -185,45 +216,18 @@
             this.lbValor1.TabIndex = 1;
             this.lbValor1.Text = "Valor 1:";
             // 
-            // lbOperacao1
-            // 
-            this.lbOperacao1.Font = new System.Drawing.Font("Miriam Mono CLM", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(177)));
-            this.lbOperacao1.ForeColor = System.Drawing.Color.White;
-            this.lbOperacao1.Location = new System.Drawing.Point(154, 275);
-            this.lbOperacao1.Name = "lbOperacao1";
-            this.lbOperacao1.Size = new System.Drawing.Size(100, 23);
-            this.lbOperacao1.TabIndex = 14;
-            this.lbOperacao1.Text = "X";
-            this.lbOperacao1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // txtValor3
-            // 
-            this.txtValor3.BackColor = System.Drawing.Color.LightGray;
-            this.txtValor3.Font = new System.Drawing.Font("Miriam Mono CLM", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(177)));
-            this.txtValor3.ForeColor = System.Drawing.Color.DarkGreen;
-            this.txtValor3.Location = new System.Drawing.Point(158, 344);
-            this.txtValor3.Name = "txtValor3";
-            this.txtValor3.Size = new System.Drawing.Size(99, 27);
-            this.txtValor3.TabIndex = 16;
-            // 
-            // lbValor3
-            // 
-            this.lbValor3.Font = new System.Drawing.Font("Miriam Mono CLM", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(177)));
-            this.lbValor3.ForeColor = System.Drawing.Color.White;
-            this.lbValor3.Location = new System.Drawing.Point(42, 344);
-            this.lbValor3.Name = "lbValor3";
-            this.lbValor3.Size = new System.Drawing.Size(100, 23);
-            this.lbValor3.TabIndex = 15;
-            this.lbValor3.Text = "Valor 3:";
-            // 
-            // Form1
+            // Multiplicacao
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.panel1);
-            this.Name = "Form1";
-            this.Text = "Form1";
+            this.MaximizeBox = false;
+            this.MinimizeBox = false;
+            this.Name = "Multiplicacao";
+            this.ShowIcon = false;
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
+            this.Text = "Multiplicação de Três Numeros";
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.ResumeLayout(false);

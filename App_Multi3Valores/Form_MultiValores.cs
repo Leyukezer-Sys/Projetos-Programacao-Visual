@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace App_Multi3Valores
 {
-    public partial class Form1 : Form
+    public partial class Multiplicacao : Form
     {
-        public Form1()
+        public Multiplicacao()
         {
             InitializeComponent();
         }
