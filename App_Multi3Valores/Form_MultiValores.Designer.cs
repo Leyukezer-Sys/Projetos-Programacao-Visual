@@ -1,6 +1,6 @@
 ﻿namespace App_Multi3Valores
 {
-    partial class Form1
+    partial class Multiplicacao
     {
         /// <summary>
         /// Variável de designer necessária.
@@ -216,14 +216,17 @@
             this.lbValor3.TabIndex = 15;
             this.lbValor3.Text = "Valor 3:";
             // 
-            // Form1
+            // Multiplicacao
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.panel1);
-            this.Name = "Form1";
-            this.Text = "Form1";
+            this.MaximizeBox = false;
+            this.MinimizeBox = false;
+            this.Name = "Multiplicacao";
+            this.ShowIcon = false;
+            this.Text = "Multiplicação de Três Numeros";
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.ResumeLayout(false);
