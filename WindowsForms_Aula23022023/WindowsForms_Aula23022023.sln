@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31919.166
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "App_Exemplo1", "App_Exemplo1.csproj", "{F4395D80-8521-44FC-9F6A-9A160B3C3643}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "App_Calculadora", "App_Calculadora.csproj", "{F4395D80-8521-44FC-9F6A-9A160B3C3643}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "App_Multi3Valores", "..\App_Multi3Valores\App_Multi3Valores.csproj", "{E20AD828-5586-4A19-BA99-0B7C9D3A1AD1}"
 EndProject

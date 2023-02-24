@@ -226,7 +226,7 @@
             this.MinimizeBox = false;
             this.Name = "Multiplicacao";
             this.ShowIcon = false;
-            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Multiplicação de Três Numeros";
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
