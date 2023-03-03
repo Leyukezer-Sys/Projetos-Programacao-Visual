@@ -1,4 +1,4 @@
-﻿namespace ConversorAlqueireParaHequitare
+﻿namespace ConversorMinutosEmHoras
 {
     partial class Form1
     {
@@ -28,8 +28,8 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.txtHectare = new System.Windows.Forms.TextBox();
-            this.txtAlqueirePaulista = new System.Windows.Forms.TextBox();
+            this.txtMinuto = new System.Windows.Forms.TextBox();
+            this.txtHora = new System.Windows.Forms.TextBox();
             this.btNovo = new System.Windows.Forms.Button();
             this.btConverter = new System.Windows.Forms.Button();
             this.label3 = new System.Windows.Forms.Label();
@@ -37,32 +37,33 @@
             this.label1 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
-            // txtHectare
+            // txtMinuto
             // 
-            this.txtHectare.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(177)));
-            this.txtHectare.Location = new System.Drawing.Point(131, 372);
-            this.txtHectare.Name = "txtHectare";
-            this.txtHectare.Size = new System.Drawing.Size(230, 35);
-            this.txtHectare.TabIndex = 13;
-            this.txtHectare.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.txtMinuto.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(177)));
+            this.txtMinuto.Location = new System.Drawing.Point(24, 185);
+            this.txtMinuto.Name = "txtMinuto";
+            this.txtMinuto.Size = new System.Drawing.Size(230, 35);
+            this.txtMinuto.TabIndex = 34;
+            this.txtMinuto.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.txtMinuto.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txtMinuto_KeyDown);
+            this.txtMinuto.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtMinuto_KeyPress);
             // 
-            // txtAlqueirePaulista
+            // txtHora
             // 
-            this.txtAlqueirePaulista.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(177)));
-            this.txtAlqueirePaulista.Location = new System.Drawing.Point(131, 199);
-            this.txtAlqueirePaulista.Name = "txtAlqueirePaulista";
-            this.txtAlqueirePaulista.Size = new System.Drawing.Size(230, 35);
-            this.txtAlqueirePaulista.TabIndex = 12;
-            this.txtAlqueirePaulista.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.txtAlqueirePaulista.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txtAlqueirePaulista_KeyDown);
+            this.txtHora.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(177)));
+            this.txtHora.Location = new System.Drawing.Point(25, 394);
+            this.txtHora.Name = "txtHora";
+            this.txtHora.Size = new System.Drawing.Size(230, 35);
+            this.txtHora.TabIndex = 33;
+            this.txtHora.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // btNovo
             // 
             this.btNovo.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F);
-            this.btNovo.Location = new System.Drawing.Point(452, 276);
+            this.btNovo.Location = new System.Drawing.Point(277, 273);
             this.btNovo.Name = "btNovo";
             this.btNovo.Size = new System.Drawing.Size(195, 39);
-            this.btNovo.TabIndex = 11;
+            this.btNovo.TabIndex = 32;
             this.btNovo.Text = "NOVO";
             this.btNovo.UseVisualStyleBackColor = true;
             this.btNovo.Click += new System.EventHandler(this.btNovo_Click);
@@ -70,10 +71,10 @@
             // btConverter
             // 
             this.btConverter.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F);
-            this.btConverter.Location = new System.Drawing.Point(131, 276);
+            this.btConverter.Location = new System.Drawing.Point(24, 273);
             this.btConverter.Name = "btConverter";
             this.btConverter.Size = new System.Drawing.Size(195, 39);
-            this.btConverter.TabIndex = 10;
+            this.btConverter.TabIndex = 31;
             this.btConverter.Text = "CONVERTER";
             this.btConverter.UseVisualStyleBackColor = true;
             this.btConverter.Click += new System.EventHandler(this.btConverter_Click);
@@ -82,21 +83,21 @@
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(177)));
-            this.label3.Location = new System.Drawing.Point(127, 332);
+            this.label3.Location = new System.Drawing.Point(20, 353);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(93, 25);
-            this.label3.TabIndex = 9;
-            this.label3.Text = "Hectare:";
+            this.label3.Size = new System.Drawing.Size(89, 25);
+            this.label3.TabIndex = 30;
+            this.label3.Text = "Hora(s):";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(177)));
-            this.label2.Location = new System.Drawing.Point(127, 140);
+            this.label2.Location = new System.Drawing.Point(20, 137);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(275, 25);
-            this.label2.TabIndex = 8;
-            this.label2.Text = "Informe o Alqueire Paulista:";
+            this.label2.Size = new System.Drawing.Size(228, 25);
+            this.label2.TabIndex = 29;
+            this.label2.Text = "Informe o(s) Minuto(s):";
             // 
             // label1
             // 
@@ -104,18 +105,18 @@
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(177)));
             this.label1.Location = new System.Drawing.Point(0, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(800, 77);
-            this.label1.TabIndex = 7;
-            this.label1.Text = "Converter Alqueire Paulista em Hectares";
+            this.label1.Size = new System.Drawing.Size(484, 64);
+            this.label1.TabIndex = 28;
+            this.label1.Text = "Converter Horas em Minutos";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.txtHectare);
-            this.Controls.Add(this.txtAlqueirePaulista);
+            this.ClientSize = new System.Drawing.Size(484, 441);
+            this.Controls.Add(this.txtMinuto);
+            this.Controls.Add(this.txtHora);
             this.Controls.Add(this.btNovo);
             this.Controls.Add(this.btConverter);
             this.Controls.Add(this.label3);
@@ -125,7 +126,7 @@
             this.MinimizeBox = false;
             this.Name = "Form1";
             this.ShowIcon = false;
-            this.Text = "2º Período ADS";
+            this.Text = "2º Periodo ADS";
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -133,8 +134,8 @@
 
         #endregion
 
-        private System.Windows.Forms.TextBox txtHectare;
-        private System.Windows.Forms.TextBox txtAlqueirePaulista;
+        private System.Windows.Forms.TextBox txtMinuto;
+        private System.Windows.Forms.TextBox txtHora;
         private System.Windows.Forms.Button btNovo;
         private System.Windows.Forms.Button btConverter;
         private System.Windows.Forms.Label label3;
