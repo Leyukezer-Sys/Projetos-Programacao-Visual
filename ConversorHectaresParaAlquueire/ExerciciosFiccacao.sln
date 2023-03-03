@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33424.131
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConversorHectaresParaAlqueire", "ConversorHectaresParaAlqueire.csproj", "{77590563-4B20-4317-B92A-6B64EF438E4A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConversorAlqueireParaHequitare", "..\ConversorAlqueireParaHequitare\ConversorAlqueireParaHequitare.csproj", "{3ECFC951-CF34-4832-BDD0-950BCC6E8F40}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConversorMetrosEmQuilometros", "..\ConverterMetrosEmQuilometros\ConversorMetrosEmQuilometros.csproj", "{28D68737-1ADD-4F21-AD14-552639BCA1A4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConversorQuilometrosEmMetros", "..\ConversorQuilometrosEmMetros\ConversorQuilometrosEmMetros.csproj", "{E2C89CBD-022E-499D-9DCE-E81874E01A13}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{77590563-4B20-4317-B92A-6B64EF438E4A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{77590563-4B20-4317-B92A-6B64EF438E4A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{77590563-4B20-4317-B92A-6B64EF438E4A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{77590563-4B20-4317-B92A-6B64EF438E4A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3ECFC951-CF34-4832-BDD0-950BCC6E8F40}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3ECFC951-CF34-4832-BDD0-950BCC6E8F40}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3ECFC951-CF34-4832-BDD0-950BCC6E8F40}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3ECFC951-CF34-4832-BDD0-950BCC6E8F40}.Release|Any CPU.Build.0 = Release|Any CPU
+		{28D68737-1ADD-4F21-AD14-552639BCA1A4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{28D68737-1ADD-4F21-AD14-552639BCA1A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{28D68737-1ADD-4F21-AD14-552639BCA1A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{28D68737-1ADD-4F21-AD14-552639BCA1A4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E2C89CBD-022E-499D-9DCE-E81874E01A13}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E2C89CBD-022E-499D-9DCE-E81874E01A13}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E2C89CBD-022E-499D-9DCE-E81874E01A13}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E2C89CBD-022E-499D-9DCE-E81874E01A13}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {73233F08-DD73-4395-9BC7-639CFD031DA3}
+	EndGlobalSection
+EndGlobal
