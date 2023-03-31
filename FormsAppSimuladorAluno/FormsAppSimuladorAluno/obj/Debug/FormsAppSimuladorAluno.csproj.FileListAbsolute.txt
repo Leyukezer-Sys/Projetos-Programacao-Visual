@@ -1,0 +1,12 @@
+C:\Users\2022202060022\source\repos\Atividade30032023\FormsAppSimuladorAluno\FormsAppSimuladorAluno\bin\Debug\FormsAppSimuladorAluno.exe.config
+C:\Users\2022202060022\source\repos\Atividade30032023\FormsAppSimuladorAluno\FormsAppSimuladorAluno\bin\Debug\FormsAppSimuladorAluno.exe
+C:\Users\2022202060022\source\repos\Atividade30032023\FormsAppSimuladorAluno\FormsAppSimuladorAluno\bin\Debug\FormsAppSimuladorAluno.pdb
+C:\Users\2022202060022\source\repos\Atividade30032023\FormsAppSimuladorAluno\FormsAppSimuladorAluno\obj\Debug\FormsAppSimuladorAluno.csproj.AssemblyReference.cache
+C:\Users\2022202060022\source\repos\Atividade30032023\FormsAppSimuladorAluno\FormsAppSimuladorAluno\obj\Debug\FormsAppSimuladorAluno.csproj.SuggestedBindingRedirects.cache
+C:\Users\2022202060022\source\repos\Atividade30032023\FormsAppSimuladorAluno\FormsAppSimuladorAluno\obj\Debug\FormsAppSimuladorAluno.Form1.resources
+C:\Users\2022202060022\source\repos\Atividade30032023\FormsAppSimuladorAluno\FormsAppSimuladorAluno\obj\Debug\FormsAppSimuladorAluno.Formularios.FormSimuladorMedia.resources
+C:\Users\2022202060022\source\repos\Atividade30032023\FormsAppSimuladorAluno\FormsAppSimuladorAluno\obj\Debug\FormsAppSimuladorAluno.Properties.Resources.resources
+C:\Users\2022202060022\source\repos\Atividade30032023\FormsAppSimuladorAluno\FormsAppSimuladorAluno\obj\Debug\FormsAppSimuladorAluno.csproj.GenerateResource.cache
+C:\Users\2022202060022\source\repos\Atividade30032023\FormsAppSimuladorAluno\FormsAppSimuladorAluno\obj\Debug\FormsAppSimuladorAluno.csproj.CoreCompileInputs.cache
+C:\Users\2022202060022\source\repos\Atividade30032023\FormsAppSimuladorAluno\FormsAppSimuladorAluno\obj\Debug\FormsAppSimuladorAluno.exe
+C:\Users\2022202060022\source\repos\Atividade30032023\FormsAppSimuladorAluno\FormsAppSimuladorAluno\obj\Debug\FormsAppSimuladorAluno.pdb
