@@ -29,5 +29,11 @@ namespace FormsAppSimuladorAluno
             FormSimuladorExame form = new FormSimuladorExame();
             form.ShowDialog();
         }
+
+        private void btMediaFinal_Click(object sender, EventArgs e)
+        {
+            FormSimuladorMediaFinal form = new FormSimuladorMediaFinal();
+            form.ShowDialog();
+        }
     }
 }

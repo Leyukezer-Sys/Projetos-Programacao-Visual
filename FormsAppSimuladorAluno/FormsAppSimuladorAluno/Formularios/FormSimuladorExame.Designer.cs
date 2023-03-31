@@ -91,11 +91,11 @@
             // label2
             // 
             this.label2.Font = new System.Drawing.Font("Sitka Text", 12.25F);
-            this.label2.Location = new System.Drawing.Point(163, 146);
+            this.label2.Location = new System.Drawing.Point(140, 146);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(146, 34);
+            this.label2.Size = new System.Drawing.Size(200, 34);
             this.label2.TabIndex = 13;
-            this.label2.Text = "Média Final:";
+            this.label2.Text = "Média do Acadêmico:";
             this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // label1
@@ -124,6 +124,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.GhostWhite;
             this.ClientSize = new System.Drawing.Size(484, 361);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.btSimularMedia);

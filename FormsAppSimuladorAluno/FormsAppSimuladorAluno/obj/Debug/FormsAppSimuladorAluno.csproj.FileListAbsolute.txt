@@ -10,3 +10,17 @@ C:\Users\2022202060022\source\repos\Atividade30032023\FormsAppSimuladorAluno\For
 C:\Users\2022202060022\source\repos\Atividade30032023\FormsAppSimuladorAluno\FormsAppSimuladorAluno\obj\Debug\FormsAppSimuladorAluno.csproj.CoreCompileInputs.cache
 C:\Users\2022202060022\source\repos\Atividade30032023\FormsAppSimuladorAluno\FormsAppSimuladorAluno\obj\Debug\FormsAppSimuladorAluno.exe
 C:\Users\2022202060022\source\repos\Atividade30032023\FormsAppSimuladorAluno\FormsAppSimuladorAluno\obj\Debug\FormsAppSimuladorAluno.pdb
+C:\Users\leyuk\Source\Repos\Leyukezer-Sys\Projetos-Programacao-Visual\FormsAppSimuladorAluno\FormsAppSimuladorAluno\obj\Debug\FormsAppSimuladorAluno.csproj.AssemblyReference.cache
+C:\Users\leyuk\Source\Repos\Leyukezer-Sys\Projetos-Programacao-Visual\FormsAppSimuladorAluno\FormsAppSimuladorAluno\obj\Debug\FormsAppSimuladorAluno.csproj.SuggestedBindingRedirects.cache
+C:\Users\leyuk\Source\Repos\Leyukezer-Sys\Projetos-Programacao-Visual\FormsAppSimuladorAluno\FormsAppSimuladorAluno\obj\Debug\FormsAppSimuladorAluno.Form1.resources
+C:\Users\leyuk\Source\Repos\Leyukezer-Sys\Projetos-Programacao-Visual\FormsAppSimuladorAluno\FormsAppSimuladorAluno\obj\Debug\FormsAppSimuladorAluno.Formularios.FormSimuladorExame.resources
+C:\Users\leyuk\Source\Repos\Leyukezer-Sys\Projetos-Programacao-Visual\FormsAppSimuladorAluno\FormsAppSimuladorAluno\obj\Debug\FormsAppSimuladorAluno.Formularios.FormSimuladorMedia.resources
+C:\Users\leyuk\Source\Repos\Leyukezer-Sys\Projetos-Programacao-Visual\FormsAppSimuladorAluno\FormsAppSimuladorAluno\obj\Debug\FormsAppSimuladorAluno.Formularios.FormSimuladorMediaFinal.resources
+C:\Users\leyuk\Source\Repos\Leyukezer-Sys\Projetos-Programacao-Visual\FormsAppSimuladorAluno\FormsAppSimuladorAluno\obj\Debug\FormsAppSimuladorAluno.csproj.GenerateResource.cache
+C:\Users\leyuk\Source\Repos\Leyukezer-Sys\Projetos-Programacao-Visual\FormsAppSimuladorAluno\FormsAppSimuladorAluno\obj\Debug\FormsAppSimuladorAluno.exe
+C:\Users\leyuk\Source\Repos\Leyukezer-Sys\Projetos-Programacao-Visual\FormsAppSimuladorAluno\FormsAppSimuladorAluno\obj\Debug\FormsAppSimuladorAluno.pdb
+C:\Users\leyuk\Source\Repos\Leyukezer-Sys\Projetos-Programacao-Visual\FormsAppSimuladorAluno\FormsAppSimuladorAluno\bin\Debug\FormsAppSimuladorAluno.exe.config
+C:\Users\leyuk\Source\Repos\Leyukezer-Sys\Projetos-Programacao-Visual\FormsAppSimuladorAluno\FormsAppSimuladorAluno\bin\Debug\FormsAppSimuladorAluno.exe
+C:\Users\leyuk\Source\Repos\Leyukezer-Sys\Projetos-Programacao-Visual\FormsAppSimuladorAluno\FormsAppSimuladorAluno\bin\Debug\FormsAppSimuladorAluno.pdb
+C:\Users\leyuk\Source\Repos\Leyukezer-Sys\Projetos-Programacao-Visual\FormsAppSimuladorAluno\FormsAppSimuladorAluno\obj\Debug\FormsAppSimuladorAluno.Properties.Resources.resources
+C:\Users\leyuk\Source\Repos\Leyukezer-Sys\Projetos-Programacao-Visual\FormsAppSimuladorAluno\FormsAppSimuladorAluno\obj\Debug\FormsAppSimuladorAluno.csproj.CoreCompileInputs.cache

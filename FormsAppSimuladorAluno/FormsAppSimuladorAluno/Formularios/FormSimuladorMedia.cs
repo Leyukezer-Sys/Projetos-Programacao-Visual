@@ -19,15 +19,6 @@ namespace FormsAppSimuladorAluno.Formularios
             lbResposta.Visible = false;
         }
 
-        private void button1_Click(object sender, EventArgs e)
-        {
-            txtNome.Clear();
-            txtNota1.Clear();
-            txtNota2.Clear();
-            txtNome.Focus();
-            lbResposta.Visible = false;
-        }
-
         private void btSimularMedia_Click(object sender, EventArgs e)
         {
             string nome = txtNome.Text;
@@ -35,20 +26,15 @@ namespace FormsAppSimuladorAluno.Formularios
             double media = (nota1 + nota2) / 2;
             if (media > 59)
             {
-                lbResposta.Text = $"{nome}, você foi aprovado(a) com {media.ToString("N1")} pontos";
+                lbResposta.Text = $"{nome}, você foi aprovado(a). com {media.ToString("N1")} pontos";
 
                 lbResposta.Visible = true;
             }
             else
             {
-                lbResposta.Text = $"{nome}, você foi reprovado(a) com {media.ToString("N1")} pontos";
+                lbResposta.Text = $"{nome}, você não foi aprovado(a) com {media.ToString("N1")} pontos";
                 lbResposta.Visible = true;
             }
-        }
-
-        private void lbResposta_Click(object sender, EventArgs e)
-        {
-
         }
 
         private void txtNota2_KeyPress(object sender, KeyPressEventArgs e)
@@ -73,6 +59,15 @@ namespace FormsAppSimuladorAluno.Formularios
             {
                 txtNota1.Focus();
             }
+        }
+
+        private void btNovo_Click(object sender, EventArgs e)
+        {
+            txtNome.Clear();
+            txtNota1.Clear();
+            txtNota2.Clear();
+            txtNome.Focus();
+            lbResposta.Visible = false;
         }
     }
 }
