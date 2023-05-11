@@ -28,12 +28,12 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle5 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle6 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle37 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle38 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle39 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle40 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle41 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle42 = new System.Windows.Forms.DataGridViewCellStyle();
             this.btFinalizarRegistro = new System.Windows.Forms.Button();
             this.btDeletar = new System.Windows.Forms.Button();
             this.label4 = new System.Windows.Forms.Label();
@@ -76,6 +76,7 @@
             this.btDeletar.TabIndex = 48;
             this.btDeletar.Text = "DELETAR";
             this.btDeletar.UseVisualStyleBackColor = true;
+            this.btDeletar.Click += new System.EventHandler(this.btDeletar_Click);
             // 
             // label4
             // 
@@ -104,6 +105,7 @@
             this.btSalvar.TabIndex = 45;
             this.btSalvar.Text = "SALVAR";
             this.btSalvar.UseVisualStyleBackColor = true;
+            this.btSalvar.Click += new System.EventHandler(this.btSalvar_Click);
             // 
             // btCancelar
             // 
@@ -114,6 +116,7 @@
             this.btCancelar.TabIndex = 44;
             this.btCancelar.Text = "CANCELAR";
             this.btCancelar.UseVisualStyleBackColor = true;
+            this.btCancelar.Click += new System.EventHandler(this.btCancelar_Click);
             // 
             // btAdd
             // 
@@ -142,6 +145,7 @@
             this.txtMedia.Name = "txtMedia";
             this.txtMedia.Size = new System.Drawing.Size(161, 22);
             this.txtMedia.TabIndex = 40;
+            this.txtMedia.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtMedia_KeyPress);
             // 
             // label2
             // 
@@ -160,6 +164,7 @@
             this.txtNota2.Name = "txtNota2";
             this.txtNota2.Size = new System.Drawing.Size(161, 22);
             this.txtNota2.TabIndex = 38;
+            this.txtNota2.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtNota2_KeyPress);
             // 
             // label1
             // 
@@ -177,7 +182,7 @@
             this.txtNome.Location = new System.Drawing.Point(41, 39);
             this.txtNome.Name = "txtNome";
             this.txtNome.Size = new System.Drawing.Size(662, 22);
-            this.txtNome.TabIndex = 36;
+            this.txtNome.TabIndex = 34;
             this.txtNome.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtNome_KeyPress);
             // 
             // lb
@@ -196,25 +201,26 @@
             this.txtNota1.Location = new System.Drawing.Point(40, 102);
             this.txtNota1.Name = "txtNota1";
             this.txtNota1.Size = new System.Drawing.Size(161, 22);
-            this.txtNota1.TabIndex = 34;
+            this.txtNota1.TabIndex = 36;
+            this.txtNota1.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtNota1_KeyPress);
             // 
             // dgvTabela
             // 
-            dataGridViewCellStyle1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            dataGridViewCellStyle1.ForeColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle1.SelectionBackColor = System.Drawing.Color.Black;
-            this.dgvTabela.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle1;
+            dataGridViewCellStyle37.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            dataGridViewCellStyle37.ForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle37.SelectionBackColor = System.Drawing.Color.Black;
+            this.dgvTabela.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle37;
             this.dgvTabela.BackgroundColor = System.Drawing.Color.Black;
             this.dgvTabela.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.SingleHorizontal;
             this.dgvTabela.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.Single;
-            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle2.BackColor = System.Drawing.Color.White;
-            dataGridViewCellStyle2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle2.ForeColor = System.Drawing.Color.MediumSeaGreen;
-            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dgvTabela.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle2;
+            dataGridViewCellStyle38.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle38.BackColor = System.Drawing.Color.White;
+            dataGridViewCellStyle38.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle38.ForeColor = System.Drawing.Color.MediumSeaGreen;
+            dataGridViewCellStyle38.SelectionBackColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle38.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle38.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dgvTabela.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle38;
             this.dgvTabela.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgvTabela.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.nome,
@@ -230,41 +236,41 @@
             // nome
             // 
             this.nome.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle3.SelectionBackColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle3.SelectionForeColor = System.Drawing.Color.White;
-            this.nome.DefaultCellStyle = dataGridViewCellStyle3;
+            dataGridViewCellStyle39.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle39.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle39.SelectionBackColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle39.SelectionForeColor = System.Drawing.Color.White;
+            this.nome.DefaultCellStyle = dataGridViewCellStyle39;
             this.nome.HeaderText = "NOME";
             this.nome.Name = "nome";
             this.nome.ReadOnly = true;
             // 
             // nota1
             // 
-            dataGridViewCellStyle4.Format = "N1";
-            dataGridViewCellStyle4.NullValue = "-";
-            dataGridViewCellStyle4.SelectionBackColor = System.Drawing.Color.Black;
-            this.nota1.DefaultCellStyle = dataGridViewCellStyle4;
+            dataGridViewCellStyle40.Format = "N1";
+            dataGridViewCellStyle40.NullValue = "-";
+            dataGridViewCellStyle40.SelectionBackColor = System.Drawing.Color.Black;
+            this.nota1.DefaultCellStyle = dataGridViewCellStyle40;
             this.nota1.HeaderText = "NOTA 1";
             this.nota1.Name = "nota1";
             this.nota1.ReadOnly = true;
             // 
             // nota2
             // 
-            dataGridViewCellStyle5.Format = "N1";
-            dataGridViewCellStyle5.NullValue = "-";
-            dataGridViewCellStyle5.SelectionBackColor = System.Drawing.Color.Black;
-            this.nota2.DefaultCellStyle = dataGridViewCellStyle5;
+            dataGridViewCellStyle41.Format = "N1";
+            dataGridViewCellStyle41.NullValue = "-";
+            dataGridViewCellStyle41.SelectionBackColor = System.Drawing.Color.Black;
+            this.nota2.DefaultCellStyle = dataGridViewCellStyle41;
             this.nota2.HeaderText = "NOTA 2";
             this.nota2.Name = "nota2";
             this.nota2.ReadOnly = true;
             // 
             // media
             // 
-            dataGridViewCellStyle6.Format = "N2";
-            dataGridViewCellStyle6.NullValue = "-";
-            dataGridViewCellStyle6.SelectionBackColor = System.Drawing.Color.Black;
-            this.media.DefaultCellStyle = dataGridViewCellStyle6;
+            dataGridViewCellStyle42.Format = "N2";
+            dataGridViewCellStyle42.NullValue = "-";
+            dataGridViewCellStyle42.SelectionBackColor = System.Drawing.Color.Black;
+            this.media.DefaultCellStyle = dataGridViewCellStyle42;
             this.media.HeaderText = "MÉDIA";
             this.media.Name = "media";
             // 

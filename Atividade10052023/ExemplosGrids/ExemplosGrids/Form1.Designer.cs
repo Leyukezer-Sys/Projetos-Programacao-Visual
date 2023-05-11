@@ -30,12 +30,13 @@
         {
             this.btFormReajuste = new System.Windows.Forms.Button();
             this.btPedido = new System.Windows.Forms.Button();
+            this.btRegistroNotas = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // btFormReajuste
             // 
             this.btFormReajuste.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btFormReajuste.Location = new System.Drawing.Point(145, 31);
+            this.btFormReajuste.Location = new System.Drawing.Point(149, 97);
             this.btFormReajuste.Name = "btFormReajuste";
             this.btFormReajuste.Size = new System.Drawing.Size(501, 68);
             this.btFormReajuste.TabIndex = 0;
@@ -46,7 +47,7 @@
             // btPedido
             // 
             this.btPedido.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btPedido.Location = new System.Drawing.Point(145, 151);
+            this.btPedido.Location = new System.Drawing.Point(149, 217);
             this.btPedido.Name = "btPedido";
             this.btPedido.Size = new System.Drawing.Size(501, 68);
             this.btPedido.TabIndex = 1;
@@ -54,11 +55,23 @@
             this.btPedido.UseVisualStyleBackColor = true;
             this.btPedido.Click += new System.EventHandler(this.btPedido_Click);
             // 
+            // btRegistroNotas
+            // 
+            this.btRegistroNotas.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btRegistroNotas.Location = new System.Drawing.Point(149, 332);
+            this.btRegistroNotas.Name = "btRegistroNotas";
+            this.btRegistroNotas.Size = new System.Drawing.Size(501, 68);
+            this.btRegistroNotas.TabIndex = 2;
+            this.btRegistroNotas.Text = "REGISTRO DE NOTAS";
+            this.btRegistroNotas.UseVisualStyleBackColor = true;
+            this.btRegistroNotas.Click += new System.EventHandler(this.btRegistroNotas_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.btRegistroNotas);
             this.Controls.Add(this.btPedido);
             this.Controls.Add(this.btFormReajuste);
             this.Name = "Form1";
@@ -71,6 +84,7 @@
 
         private System.Windows.Forms.Button btFormReajuste;
         private System.Windows.Forms.Button btPedido;
+        private System.Windows.Forms.Button btRegistroNotas;
     }
 }
 

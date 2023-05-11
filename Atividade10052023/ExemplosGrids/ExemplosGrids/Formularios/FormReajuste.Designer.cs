@@ -28,13 +28,13 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle8 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle9 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle10 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle11 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle12 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle13 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle14 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle50 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle51 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle52 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle53 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle54 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle55 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle56 = new System.Windows.Forms.DataGridViewCellStyle();
             this.btDeletar = new System.Windows.Forms.Button();
             this.btSalvar = new System.Windows.Forms.Button();
             this.btCancelar = new System.Windows.Forms.Button();
@@ -69,6 +69,7 @@
             this.btDeletar.TabIndex = 51;
             this.btDeletar.Text = "DELETAR";
             this.btDeletar.UseVisualStyleBackColor = false;
+            this.btDeletar.Click += new System.EventHandler(this.btDeletar_Click);
             // 
             // btSalvar
             // 
@@ -80,6 +81,7 @@
             this.btSalvar.TabIndex = 50;
             this.btSalvar.Text = "SALVAR";
             this.btSalvar.UseVisualStyleBackColor = false;
+            this.btSalvar.Click += new System.EventHandler(this.btSalvar_Click);
             // 
             // btCancelar
             // 
@@ -91,6 +93,7 @@
             this.btCancelar.TabIndex = 49;
             this.btCancelar.Text = "CANCELAR";
             this.btCancelar.UseVisualStyleBackColor = false;
+            this.btCancelar.Click += new System.EventHandler(this.btCancelar_Click);
             // 
             // btAdd
             // 
@@ -122,6 +125,7 @@
             this.txtSalarioAtual.Name = "txtSalarioAtual";
             this.txtSalarioAtual.Size = new System.Drawing.Size(161, 22);
             this.txtSalarioAtual.TabIndex = 46;
+            this.txtSalarioAtual.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtSalarioAtual_KeyPress);
             // 
             // label3
             // 
@@ -140,6 +144,7 @@
             this.txtReajuste.Name = "txtReajuste";
             this.txtReajuste.Size = new System.Drawing.Size(161, 22);
             this.txtReajuste.TabIndex = 44;
+            this.txtReajuste.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtReajuste_KeyPress);
             // 
             // label2
             // 
@@ -158,6 +163,7 @@
             this.txtSalario.Name = "txtSalario";
             this.txtSalario.Size = new System.Drawing.Size(161, 22);
             this.txtSalario.TabIndex = 42;
+            this.txtSalario.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtSalario_KeyPress);
             // 
             // label1
             // 
@@ -176,6 +182,7 @@
             this.txtNome.Name = "txtNome";
             this.txtNome.Size = new System.Drawing.Size(662, 22);
             this.txtNome.TabIndex = 38;
+            this.txtNome.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtNome_KeyPress);
             // 
             // lb
             // 
@@ -194,23 +201,24 @@
             this.txtCpf.Name = "txtCpf";
             this.txtCpf.Size = new System.Drawing.Size(161, 22);
             this.txtCpf.TabIndex = 40;
+            this.txtCpf.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtCpf_KeyPress);
             // 
             // dgvTabela
             // 
-            dataGridViewCellStyle8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            dataGridViewCellStyle8.ForeColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle8.SelectionBackColor = System.Drawing.Color.Black;
-            this.dgvTabela.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle8;
+            dataGridViewCellStyle50.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            dataGridViewCellStyle50.ForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle50.SelectionBackColor = System.Drawing.Color.Black;
+            this.dgvTabela.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle50;
             this.dgvTabela.BackgroundColor = System.Drawing.Color.Black;
             this.dgvTabela.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.SingleHorizontal;
-            dataGridViewCellStyle9.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle9.BackColor = System.Drawing.Color.White;
-            dataGridViewCellStyle9.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle9.ForeColor = System.Drawing.Color.MediumSeaGreen;
-            dataGridViewCellStyle9.SelectionBackColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle9.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle9.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dgvTabela.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle9;
+            dataGridViewCellStyle51.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle51.BackColor = System.Drawing.Color.White;
+            dataGridViewCellStyle51.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle51.ForeColor = System.Drawing.Color.MediumSeaGreen;
+            dataGridViewCellStyle51.SelectionBackColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle51.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle51.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dgvTabela.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle51;
             this.dgvTabela.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgvTabela.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.nome,
@@ -225,11 +233,11 @@
             // 
             // nome
             // 
-            dataGridViewCellStyle10.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle10.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle10.SelectionBackColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle10.SelectionForeColor = System.Drawing.Color.White;
-            this.nome.DefaultCellStyle = dataGridViewCellStyle10;
+            dataGridViewCellStyle52.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle52.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle52.SelectionBackColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle52.SelectionForeColor = System.Drawing.Color.White;
+            this.nome.DefaultCellStyle = dataGridViewCellStyle52;
             this.nome.HeaderText = "NOME";
             this.nome.Name = "nome";
             this.nome.ReadOnly = true;
@@ -237,10 +245,10 @@
             // 
             // cpf
             // 
-            dataGridViewCellStyle11.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle11.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            dataGridViewCellStyle11.SelectionBackColor = System.Drawing.Color.Black;
-            this.cpf.DefaultCellStyle = dataGridViewCellStyle11;
+            dataGridViewCellStyle53.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle53.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
+            dataGridViewCellStyle53.SelectionBackColor = System.Drawing.Color.Black;
+            this.cpf.DefaultCellStyle = dataGridViewCellStyle53;
             this.cpf.HeaderText = "CPF:";
             this.cpf.Name = "cpf";
             this.cpf.ReadOnly = true;
@@ -248,37 +256,37 @@
             // 
             // salario
             // 
-            dataGridViewCellStyle12.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle12.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            dataGridViewCellStyle12.Format = "C2";
-            dataGridViewCellStyle12.NullValue = "-";
-            dataGridViewCellStyle12.SelectionBackColor = System.Drawing.Color.Black;
-            this.salario.DefaultCellStyle = dataGridViewCellStyle12;
+            dataGridViewCellStyle54.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle54.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
+            dataGridViewCellStyle54.Format = "C2";
+            dataGridViewCellStyle54.NullValue = "-";
+            dataGridViewCellStyle54.SelectionBackColor = System.Drawing.Color.Black;
+            this.salario.DefaultCellStyle = dataGridViewCellStyle54;
             this.salario.HeaderText = "SALÁRIO";
             this.salario.Name = "salario";
             this.salario.ReadOnly = true;
             // 
             // reajuste
             // 
-            dataGridViewCellStyle13.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle13.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            dataGridViewCellStyle13.Format = "N2";
-            dataGridViewCellStyle13.NullValue = "%";
-            dataGridViewCellStyle13.SelectionBackColor = System.Drawing.Color.Black;
-            this.reajuste.DefaultCellStyle = dataGridViewCellStyle13;
+            dataGridViewCellStyle55.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle55.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
+            dataGridViewCellStyle55.Format = "N2";
+            dataGridViewCellStyle55.NullValue = "%";
+            dataGridViewCellStyle55.SelectionBackColor = System.Drawing.Color.Black;
+            this.reajuste.DefaultCellStyle = dataGridViewCellStyle55;
             this.reajuste.HeaderText = "REAJUSTE(%)";
             this.reajuste.Name = "reajuste";
             this.reajuste.ReadOnly = true;
             // 
             // salarioAtual
             // 
-            dataGridViewCellStyle14.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle14.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            dataGridViewCellStyle14.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            dataGridViewCellStyle14.Format = "C2";
-            dataGridViewCellStyle14.NullValue = "-";
-            dataGridViewCellStyle14.SelectionBackColor = System.Drawing.Color.Black;
-            this.salarioAtual.DefaultCellStyle = dataGridViewCellStyle14;
+            dataGridViewCellStyle56.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle56.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            dataGridViewCellStyle56.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
+            dataGridViewCellStyle56.Format = "C2";
+            dataGridViewCellStyle56.NullValue = "-";
+            dataGridViewCellStyle56.SelectionBackColor = System.Drawing.Color.Black;
+            this.salarioAtual.DefaultCellStyle = dataGridViewCellStyle56;
             this.salarioAtual.HeaderText = "SALÁRIO REAJUSTADO";
             this.salarioAtual.Name = "salarioAtual";
             this.salarioAtual.Resizable = System.Windows.Forms.DataGridViewTriState.True;

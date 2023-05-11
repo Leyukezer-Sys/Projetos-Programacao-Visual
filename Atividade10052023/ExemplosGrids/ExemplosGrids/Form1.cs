@@ -29,5 +29,11 @@ namespace ExemplosGrids
             FormPerdido form = new FormPerdido();
             form.ShowDialog();
         }
+
+        private void btRegistroNotas_Click(object sender, EventArgs e)
+        {
+            FormRegistroDeNotas form = new FormRegistroDeNotas();
+            form.ShowDialog();
+        }
     }
 }
