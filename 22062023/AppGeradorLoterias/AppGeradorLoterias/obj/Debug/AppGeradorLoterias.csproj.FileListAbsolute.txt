@@ -1,0 +1,42 @@
+C:\Users\reina\OneDrive\Documentos\My Web Sites\AppGeradorLoterias\AppGeradorLoterias\bin\Debug\AppGeradorLoterias.exe.config
+C:\Users\reina\OneDrive\Documentos\My Web Sites\AppGeradorLoterias\AppGeradorLoterias\bin\Debug\AppGeradorLoterias.exe
+C:\Users\reina\OneDrive\Documentos\My Web Sites\AppGeradorLoterias\AppGeradorLoterias\bin\Debug\AppGeradorLoterias.pdb
+C:\Users\reina\OneDrive\Documentos\My Web Sites\AppGeradorLoterias\AppGeradorLoterias\obj\Debug\AppGeradorLoterias.csproj.AssemblyReference.cache
+C:\Users\reina\OneDrive\Documentos\My Web Sites\AppGeradorLoterias\AppGeradorLoterias\obj\Debug\AppGeradorLoterias.csproj.SuggestedBindingRedirects.cache
+C:\Users\reina\OneDrive\Documentos\My Web Sites\AppGeradorLoterias\AppGeradorLoterias\obj\Debug\AppGeradorLoterias.Form1.resources
+C:\Users\reina\OneDrive\Documentos\My Web Sites\AppGeradorLoterias\AppGeradorLoterias\obj\Debug\AppGeradorLoterias.Formularios.FormLotoFacil.resources
+C:\Users\reina\OneDrive\Documentos\My Web Sites\AppGeradorLoterias\AppGeradorLoterias\obj\Debug\AppGeradorLoterias.Properties.Resources.resources
+C:\Users\reina\OneDrive\Documentos\My Web Sites\AppGeradorLoterias\AppGeradorLoterias\obj\Debug\AppGeradorLoterias.csproj.GenerateResource.cache
+C:\Users\reina\OneDrive\Documentos\My Web Sites\AppGeradorLoterias\AppGeradorLoterias\obj\Debug\AppGeradorLoterias.csproj.CoreCompileInputs.cache
+C:\Users\reina\OneDrive\Documentos\My Web Sites\AppGeradorLoterias\AppGeradorLoterias\obj\Debug\AppGeradorLoterias.exe
+C:\Users\reina\OneDrive\Documentos\My Web Sites\AppGeradorLoterias\AppGeradorLoterias\obj\Debug\AppGeradorLoterias.pdb
+C:\Users\2022202060022\source\repos\aue\22062023\AppGeradorLoterias\AppGeradorLoterias\obj\Debug\AppGeradorLoterias.csproj.AssemblyReference.cache
+C:\Users\2022202060022\source\repos\aue\22062023\AppGeradorLoterias\AppGeradorLoterias\obj\Debug\AppGeradorLoterias.csproj.SuggestedBindingRedirects.cache
+C:\Users\2022202060022\source\repos\aue\22062023\AppGeradorLoterias\AppGeradorLoterias\obj\Debug\AppGeradorLoterias.Form1.resources
+C:\Users\2022202060022\source\repos\aue\22062023\AppGeradorLoterias\AppGeradorLoterias\obj\Debug\AppGeradorLoterias.Formularios.FormLotoFacil.resources
+C:\Users\2022202060022\source\repos\aue\22062023\AppGeradorLoterias\AppGeradorLoterias\obj\Debug\AppGeradorLoterias.Properties.Resources.resources
+C:\Users\2022202060022\source\repos\aue\22062023\AppGeradorLoterias\AppGeradorLoterias\obj\Debug\AppGeradorLoterias.csproj.GenerateResource.cache
+C:\Users\2022202060022\source\repos\aue\22062023\AppGeradorLoterias\AppGeradorLoterias\obj\Debug\AppGeradorLoterias.csproj.CoreCompileInputs.cache
+C:\Users\2022202060022\source\repos\aue\22062023\AppGeradorLoterias\AppGeradorLoterias\obj\Debug\AppGeradorLoterias.exe
+C:\Users\2022202060022\source\repos\aue\22062023\AppGeradorLoterias\AppGeradorLoterias\obj\Debug\AppGeradorLoterias.pdb
+C:\Users\2022202060022\source\repos\aue\22062023\AppGeradorLoterias\AppGeradorLoterias\bin\Debug\AppGeradorLoterias.exe.config
+C:\Users\2022202060022\source\repos\aue\22062023\AppGeradorLoterias\AppGeradorLoterias\bin\Debug\AppGeradorLoterias.exe
+C:\Users\2022202060022\source\repos\aue\22062023\AppGeradorLoterias\AppGeradorLoterias\bin\Debug\AppGeradorLoterias.pdb
+C:\Users\2022202060022\source\repos\aue\22062023\AppGeradorLoterias\AppGeradorLoterias\obj\Debug\AppGeradorLoterias.Formularios.FormMegaSena.resources
+C:\Users\leyuk\Source\Repos\Leyukezer-Sys\Projetos-Programacao-Visual\22062023\AppGeradorLoterias\AppGeradorLoterias\bin\Debug\AppGeradorLoterias.exe.config
+C:\Users\leyuk\Source\Repos\Leyukezer-Sys\Projetos-Programacao-Visual\22062023\AppGeradorLoterias\AppGeradorLoterias\bin\Debug\AppGeradorLoterias.exe
+C:\Users\leyuk\Source\Repos\Leyukezer-Sys\Projetos-Programacao-Visual\22062023\AppGeradorLoterias\AppGeradorLoterias\bin\Debug\AppGeradorLoterias.pdb
+C:\Users\leyuk\Source\Repos\Leyukezer-Sys\Projetos-Programacao-Visual\22062023\AppGeradorLoterias\AppGeradorLoterias\obj\Debug\AppGeradorLoterias.csproj.AssemblyReference.cache
+C:\Users\leyuk\Source\Repos\Leyukezer-Sys\Projetos-Programacao-Visual\22062023\AppGeradorLoterias\AppGeradorLoterias\obj\Debug\AppGeradorLoterias.csproj.SuggestedBindingRedirects.cache
+C:\Users\leyuk\Source\Repos\Leyukezer-Sys\Projetos-Programacao-Visual\22062023\AppGeradorLoterias\AppGeradorLoterias\obj\Debug\AppGeradorLoterias.Form1.resources
+C:\Users\leyuk\Source\Repos\Leyukezer-Sys\Projetos-Programacao-Visual\22062023\AppGeradorLoterias\AppGeradorLoterias\obj\Debug\AppGeradorLoterias.Formularios.FormDiaDeSorte.resources
+C:\Users\leyuk\Source\Repos\Leyukezer-Sys\Projetos-Programacao-Visual\22062023\AppGeradorLoterias\AppGeradorLoterias\obj\Debug\AppGeradorLoterias.Formularios.FormLotoFacil.resources
+C:\Users\leyuk\Source\Repos\Leyukezer-Sys\Projetos-Programacao-Visual\22062023\AppGeradorLoterias\AppGeradorLoterias\obj\Debug\AppGeradorLoterias.Formularios.FormLotomania.resources
+C:\Users\leyuk\Source\Repos\Leyukezer-Sys\Projetos-Programacao-Visual\22062023\AppGeradorLoterias\AppGeradorLoterias\obj\Debug\AppGeradorLoterias.Formularios.FormMegaSena.resources
+C:\Users\leyuk\Source\Repos\Leyukezer-Sys\Projetos-Programacao-Visual\22062023\AppGeradorLoterias\AppGeradorLoterias\obj\Debug\AppGeradorLoterias.Formularios.FormQuina.resources
+C:\Users\leyuk\Source\Repos\Leyukezer-Sys\Projetos-Programacao-Visual\22062023\AppGeradorLoterias\AppGeradorLoterias\obj\Debug\AppGeradorLoterias.Formularios.FormSuperSete.resources
+C:\Users\leyuk\Source\Repos\Leyukezer-Sys\Projetos-Programacao-Visual\22062023\AppGeradorLoterias\AppGeradorLoterias\obj\Debug\AppGeradorLoterias.Properties.Resources.resources
+C:\Users\leyuk\Source\Repos\Leyukezer-Sys\Projetos-Programacao-Visual\22062023\AppGeradorLoterias\AppGeradorLoterias\obj\Debug\AppGeradorLoterias.csproj.GenerateResource.cache
+C:\Users\leyuk\Source\Repos\Leyukezer-Sys\Projetos-Programacao-Visual\22062023\AppGeradorLoterias\AppGeradorLoterias\obj\Debug\AppGeradorLoterias.csproj.CoreCompileInputs.cache
+C:\Users\leyuk\Source\Repos\Leyukezer-Sys\Projetos-Programacao-Visual\22062023\AppGeradorLoterias\AppGeradorLoterias\obj\Debug\AppGeradorLoterias.exe
+C:\Users\leyuk\Source\Repos\Leyukezer-Sys\Projetos-Programacao-Visual\22062023\AppGeradorLoterias\AppGeradorLoterias\obj\Debug\AppGeradorLoterias.pdb
